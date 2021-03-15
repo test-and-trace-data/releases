@@ -1,0 +1,40 @@
+{% set page_title = "How to contribute" %}
+{% extends "_base.html" %}
+{% block top %}
+  {% if config.show_breadcrumbs %}
+    <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+      <div class="nhsuk-width-container">
+        <ol class="nhsuk-breadcrumb__list">
+          <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{config.service_url}}">Home</a></li>
+          <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{config.base_url}}">{{ datapackage.title }}</a></li>
+        </ol>
+      </div>
+    </nav>
+  {% endif %}
+{% endblock %}
+{% block content %}
+
+  <h1 class="nhsuk-heading-xl">How to contribute to the register of releases</h1>
+
+  <p class="nhsuk-body">There are two ways to contribute to this register of releases:</p>
+
+  <ol>
+    <li>
+      <p class="nhsuk-body">Send an email about a single release to <a href="mailto:{{config.contact_email}}?subject=[Release register contribution]&body=product id: a unique, human readable and url usable identifier for the product or service this release relates to%0D%0Aproduct name: the name of the product or service this release relates to%0D%0Aversion: the version number for the release%0D%0Adatetime: the date and time the version was releases in [ISO 8601 date format](https://en.wikipedia.org/wiki/ISO_8601)%0D%0Arelease_notes: a description of the changes for this release%0D%0A">{{config.contact_email}}</a> (this link will open with a pre-populated template for you to complete).</p>
+    </li>
+    <li>
+      <p class="nhsuk-body">
+        Send an email about multiple releases to <a href="mailto:{{config.contact_email}}?subject=[Product register contribution bulk]&body=Please make sure you have attached a CSV file">{{config.contact_email}}</a> and attach a <a href="example.csv">CSV file in this format</a>.
+      </p>
+    </li>
+    <li>
+      <p class="nhsuk-body">
+        Edit the csv files in the <code>data/</code> directory of <a href="{{config.github_url}}">this GitHub repository</a>.
+      </p>
+      <p class="nhsuk-body">
+        To add a release history for a new product or service, you can create a new csv file in the <code>data/</code> directory and add a new <code>resource</code> to the <code>datapackage.json</code> file.
+      </p>
+    </li>
+  </ol>
+
+{% endblock %}

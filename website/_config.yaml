@@ -1,0 +1,11 @@
+---
+service_title: "Placeholder service name"
+service_url: "/"
+show_breadcrumbs: True
+base_url: ""
+github_url: "https://github.com/test-and-trace-data/releases"
+contact_email: ""
+appstore_ids:
+  - "id1520427663"
+playstore_ids:
+  -  "uk.nhs.covid19.production"

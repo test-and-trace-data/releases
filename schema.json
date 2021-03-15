@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "type": "string",
+      "name": "version",
+      "format": "default",
+      "required": true,
+      "unique": true
+    },
+    {
+      "type": "date",
+      "name": "date",
+      "format": "default",
+      "required": true
+    },
+    {
+      "type": "string",
+      "name": "release-notes",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+      ""
+  ]
+}
