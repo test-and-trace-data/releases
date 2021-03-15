@@ -1,0 +1,23 @@
+version,date,release-notes
+3.0,2020-08-13,
+3.0.1,2020-08-19,Update to app store description and screenshots.
+3.1,2020-08-21,"Updated home screen design, translations added for Urdu, Punjabi (Gurmukhi script), Bengali, Gujarati and Welsh, and bug fixes"
+3.1.1,2020-09-02,"Resolves a compatibility issue with iOS13.7."
+3.1.2,2020-09-02,"Homescreen animation bug fix for iOS 14"
+3.6,2020-09-23,"Available to residents of England and Wales aged 16+. Feature enhancements to venue check-in, QR code optimisation, postal district alerts, ability to edit postal district, testing messaging, manual test entry, encounter detection and exposure notification, refined testing app logic as well as overall UI, language and accessibility optimisations. Additional languages added: Chinese (Simplified), Romanian, Turkish and Arabic (Modern Standard)."
+3.6.1,2020-09-25,"Small bug fixes."
+3.7,2020-10-12,"Support for additional languages - Somali and Polish. Better notification for potential exposures. Risky postcodes UI improvements. Bug fixes."
+3.7.1,2020-10-15,Bug fixes.
+3.9,2020-10-29,"Feature enhancements to venue check-in, new postal district alerts and advice as well as overall UI, language and accessibility optimisations."
+3.10,2020-11-09,"The ability for the NHS COVID-19 app to be used across UK borders in England, Wales, Scotland, Northern Ireland, Jersey and Gibraltar, detecting all relevant contact tracing app users (regardless of them using different official apps) and alerting them if they have been in contact with coronavirus. As well as alerts if there is a new version of the app available to make sure you always have access to the latest features and guidance, new tier information and advice as well, feature enhancements when ordering a test as overall UI, language and accessibility optimisations."
+3.10.1,2020-11-13,Bug fixes.
+3.10.2,2020-11-18,Bug fixes.
+3.12,2020-11-30,"Updates to the tiers and advice in England to include information on new government guidelines for your local authority. The app now maps the postcode district to a local authority to ensure the best information and guidance is provided. Overall UI, language and accessibility optimisations."
+4.0,2020-12-10,"If the app detects that they have been in contact with a person who has tested positive for coronavirus, and you are asked to self isolate, you may be able to claim financial support depending on your circumstances. You are able to start your application process for this financial support through the app. Overall UI, language and accessibility optimisations."
+4.1,2020-12-17,"The period of required self-isolation is now 10 days for both contact and index cases; due to this change, users have been directed to extra information about how the app calculates self-isolation days. Overall UI, language, analytics and accessibility optimisations."
+4.1.1,2021-01-07,Bug fix to optimise isolation period implementation in scenarios where the app does not have connection to access configured values.
+4.2,2021-01-18,"An in-app language settings feature has been introduced, allowing users to change the language of the app without needing to navigate to phone settings. Other UI, language, analytics and accessibility optimisations."
+4.3,2021-01-25,"This version gives further information on local measures to Welsh users. It also allows all users with a code to enter positive test results into the app for another type of test, known commonly as a rapid swab test or a lateral flow device (LFD) test. Other UI, language, analytics and accessibility optimisations."
+4.4,2021-02-11,"We have introduced a change which means that after entering certain types of test results in the app, users may be advised to book a follow-up test that is sent to a lab for analysis. Other design, language and accessibility optimisations."
+4.5,2021-02-23,"We have introduced a change which means that users who enter a positive test result from a lab into the app, but did not book the test through the app, will be asked to state when their symptoms started. This is to make sure the self-isolation countdown in the app aligns with the advice from the contact tracing teams in the wider programme. Other design, language and accessibility optimisations."
+4.6,2021-03-10,"We have made further improvements to the app settings feature to give users easier access to their data. Other design, language and accessibility optimisations."

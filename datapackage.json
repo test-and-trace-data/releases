@@ -1,0 +1,48 @@
+{
+    "title": "Product releases",
+    "description": "This is a register of software releases for NHS Test & Trace's digital products. It is built from publically avaliable information. It is currently limited to mobile apps.",
+    "sources": [
+        {
+            "title": "Apple AppStore",
+            "web": "https://apps.apple.com"
+        },
+        {
+            "title": "Google Play Store",
+            "web": "https://play.google.com"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "OGL-UK-3.0",
+            "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "title": "Open Government Licence v 3.0"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "NHS Test & Trace",
+            "path": "https://www.covid19.nhs.uk",
+            "role": "maintainer"
+        }
+    ],
+    "resources": [
+        {
+            "name": "nhs-covid-19-releases-ios",
+            "title": "NHS COVID-19 releases - iOS",
+            "mediatype": "text/csv",
+            "description": "Release history and version numbers for the iOS app",
+            "path": "data/nhs-covid-19-releases-ios.csv",
+            "schema": "schema.json"
+        },
+        {
+            "name": "nhs-covid-19-releases-android",
+            "title": "NHS COVID-19 releases - Android",
+            "mediatype": "text/csv",
+            "description": "Release history and version numbers for the Android app",
+            "path": "data/nhs-covid-19-releases-android.csv",
+            "schema": "schema.json"
+        }
+    ],
+    "updated": "2021-03-11T09:45:04.845378",
+    "created": "2020-11-16T10:51:02.204067"
+}
