@@ -1,4 +1,4 @@
-![update-releases](https://github.com/test-and-trace-data/releases/workflows/update-releases/badge.svg)
+![update-and-deploy](https://github.com/test-and-trace-data/releases/workflows/update-and-deploy/badge.svg)
 ![deploy](https://github.com/test-and-trace-data/releases/workflows/deploy/badge.svg)
 
 # Register of software releases
